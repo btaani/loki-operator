@@ -37,7 +37,7 @@ spec:
             secretKeyRef:
               key: bucketnames
               name: test
-        image: dxflrs/garage:v2.3.0
+        image: docker.io/dxflrs/garage:v2.5.0
         name: garage
         ports:
         - containerPort: 3900
